@@ -17,7 +17,7 @@ steps:
     subscriptionId: fb9798c3-ea06-4466-a1b1-961361dc6cfa
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARmPipeline-rg'
-    location: 'Central US'
+    location: 'eastus'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/Fano10/ARMPipeline-repo/tree/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName myarmpipeline'
