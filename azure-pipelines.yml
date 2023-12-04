@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'ARmPipeline-rg'
     location: 'eastus'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/Fano10/ARMPipeline-repo/tree/main/create_web_app'
+    csmFileLink: 'create_web_app/azuredeploy.json'
     overrideParameters: '-projectName myarmpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
